@@ -1,0 +1,29 @@
+{
+    "name": "paint-shop-problem",
+    "version": "1.0.0",
+    "description": "Paint shop problem",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "author": "Leonid Kuznetsov <js.leonid.kuznetsov@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "./node_modules/nodemon/bin/nodemon.js --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+        "build": "tsc",
+        "test": "mocha -r ts-node/register test/**/*.ts test/*.ts"
+    },
+    "dependencies": {
+        "commander": "2.20.3",
+        "fs": "0.0.2",
+        "typescript": "4.2.4"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.16",
+        "@types/mocha": "5.2.7",
+        "@types/node": "14.14.37",
+        "chai": "4.3.4",
+        "mocha": "8.3.2",
+        "nodemon": "2.0.7",
+        "ts-node": "8.10.2",
+        "tslint": "6.1.3"
+    }
+}
