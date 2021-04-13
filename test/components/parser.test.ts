@@ -13,7 +13,7 @@ it('Should parse a valid input file', (done: Mocha.Done) => {
     ]
   }
 
-  const content = fs.readFileSync(`${__dirname}/../../examples/example2.txt`, 'utf8')
+  const content = fs.readFileSync(`${__dirname}/../../data/in2.txt`, 'utf8')
   const output = parse(content)
 
   expect(output).to.eql(expected)

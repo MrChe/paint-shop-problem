@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "lib": [
-      "esnext"
+      "ESNext"
     ],
     "outDir": "build",
     "declaration": true,

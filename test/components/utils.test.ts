@@ -1,9 +1,6 @@
 import { expect } from 'chai'
-
 import Preference from '../../src/models/preference'
-
 import { preparePreferences, generateCandidates, validateCandidate } from '../../src/components/utils'
-
 
 it('Should prepare customer preferences by sorting them and adding unique flags', (done: Mocha.Done) => {
 

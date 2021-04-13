@@ -30,7 +30,7 @@ yarn install
 node run build
 ```
 
-8. Run the `index.js` file inside the just generated `build` folder and use stdin to specify the path to a file with a set of customer requirements (look at the examples folder)
+8. Run the `index.js` file inside the just generated `build` folder and use stdin to specify the path to a file with a set of customer requirements (look at the `data` folder)
 
 ```
 node build/index < path_to_file
