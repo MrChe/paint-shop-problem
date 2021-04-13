@@ -17,3 +17,6 @@ build/*
 
 # IDE JetBrains
 .idea/
+
+
+.DS_Store
