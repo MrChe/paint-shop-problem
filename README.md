@@ -27,7 +27,7 @@ yarn install
 4. Build the project
 
 ```
-node run build
+npm run build
 ```
 
 8. Run the `index.js` file inside the just generated `build` folder and use stdin to specify the path to a file with a set of customer requirements (look at the `data` folder)
